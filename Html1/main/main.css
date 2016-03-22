@@ -1,9 +1,16 @@
 html, body {
   font-family: "Open Sans";
+  background: #EBEFF0;
 }
 .section {
-  background: #999;
+
   text-align: center;
+}
+.section h1{
+  color: #BBBEBF;
+}
+.section hr{
+  width: 18%;
 }
 
 .navbar-right {
@@ -11,13 +18,37 @@ html, body {
 }
 
 .main-jumbotron {
-  height: 400px;
-  background: url("../images/jumbotron.jpg");
+  background: url("../images/Road.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%
+  border-radius: 0px;
+  padding-right: 0px;
 
 }
 
 .main-jumbotron h1{
-  color: white;
+  color: #ACADAD;
   text-align: center;
-  font-weight:200;
+  padding-top: 8%;
+  padding-bottom: 2.5%;
+  font-weight:400;
+}
+
+.main-jumbotron hr{
+  width: 18%;
+}
+
+.main-jumbotron h2{
+  color:#ACADAD;
+  text-align: center;
+  padding-top: 2.5%;
+  font-weight: 400;
+}
+
+footer{
+  text-align: center;
+  font-weight: 100;
+  color: black;
+  padding-top: 40px;
 }
