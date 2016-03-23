@@ -1,0 +1,65 @@
+html, body {
+    font-family: "Open Sans";
+    background: #F9ECD1;
+    color: #483A3A;
+}
+.row {
+    margin: 0;
+}
+.section {
+    text-align: center;
+}
+.section hr {
+    width: 18%;
+}
+.navbar-right {
+    padding-right: 10px;
+}
+.main-jumbotron {
+    background: url("../images/Road.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.main-jumbotron h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-weight: 400;
+}
+.main-jumbotron hr {
+    opacity: 0.3;
+    border-color: #483A3A;
+    width: 18%;
+    margin-top: 35px;
+}
+.main-jumbotron h2 {
+    text-align: center;
+    padding-top: 2.5%;
+    font-weight: 400;
+}
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar {
+    background: #483A3A;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.navbar a {
+    color: white !important;
+}
+.links {
+    padding-top: 50px;
+    text-align: center;
+}
+.links a {
+    color: #483A3A;
+}
+.links i {
+    padding: 0 15px;
+}
