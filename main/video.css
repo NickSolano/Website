@@ -1,49 +1,64 @@
+
 html, body {
     font-family: "Open Sans";
     background: #F9ECD1;
     color: #483A3A;
 }
+
+.video-jumbotron{
+  background: url("../images/cunt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+
+}
+.video-jumbotron h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-weight: 400;
+    color:white;
+}
+.video-jumbotron hr {
+    opacity: 0.3;
+    border-color: White;
+    width: 18%;
+    margin-top: 35px;
+}
+.video-jumbotron h2 {
+    text-align: center;
+    padding-top: 2.5%;
+    font-weight: 400;
+    color:white;
+}
+.iframe {
+  float: right;
+
+}
+
 .row {
     margin: 0;
+    text-align: center;
 }
+
 .section {
     text-align: center;
 }
+.section{
+    text-align: center;
+    background-position: center;
+}
 .section hr {
     width: 18%;
-}
-.section h1{
-  background-position: center;
+    border-color: #483A3A !important;
+
 }
 .navbar-right {
     padding-right: 10px;
 }
 
-.main-jumbotron {
-    background: url("../images/Road.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 500px;
-    width: 100%;
-}
-.main-jumbotron h1 {
-    text-align: center;
-    padding-top: 75px;
-    font-weight: 400;
-}
-.main-jumbotron hr {
-    opacity: 0.3;
-    border-color: #483A3A;
-    width: 18%;
-    margin-top: 35px;
-}
-.main-jumbotron h2 {
-    text-align: center;
-    padding-top: 2.5%;
-    font-weight: 400;
-}
 footer {
     text-align: center;
     padding-top: 20px;
